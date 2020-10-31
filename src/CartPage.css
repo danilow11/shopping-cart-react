@@ -1,0 +1,35 @@
+.CartPage-items {
+  margin: 0;
+  padding: 0;
+}
+.CartPage-items li {
+  list-style-type: none;
+}
+.CartPage-count {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+}
+.CartItem-addOne,
+.CartItem-removeOne {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  background: #fff;
+}
+.CartItem-addOne {
+  border-left: none;
+}
+.CartItem-removeOne {
+  border-right: none;
+}
+.CartPage-total {
+  font-weight: bold;
+  font-size: 1.25em;
+  text-align: right;
+  margin-top: 0.5em;
+}
+.CartPage-empty {
+  text-align: center;
+}
+.CartPage-empty p {
+  margin: 0;
+}
